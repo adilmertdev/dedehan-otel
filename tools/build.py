@@ -59,7 +59,7 @@ T={
  g_eye='Galeri',g_h='Otelden kareler',
  caps={'havadan-deniz':'Otel ve Karadeniz manzarası','dis-cephe-gece':'Otel cephesi – gece','lobi':'Lobi ve resepsiyon','kahvalti':'Kahvaltı salonu','oda-1':'Standart oda','oda-2':'Oda','oda-calisma':'Oda – çalışma alanı','banyo':'Banyo','dus':'Duş','dis-cephe-yan':'Otel cephesi'},
  v_eye='Misafir Yorumları',v_h='Misafirlerimiz ne diyor?',
- sc=[('4,3','Google Haritalar','487 değerlendirme · /5'),('8,4','Booking.com','65 değerlendirme · /10')],
+ sc=[('4,3','Google Haritalar','489 değerlendirme · /5'),('8,4','Booking.com','65 değerlendirme · /10')],
  revs=[('Harika harika harika başka söze gerek yok. Kendinizi evinizde hissedebileceğiniz bölgenin en iyi oteli. İş seyahatleri için ayda en az 1 kere kalıyorum.','Misafir yorumu · haritane.com'),
        ('Temiz, zengin kahvaltı, çözüme odaklı yaklaşım, güler yüz.','Misafir yorumu · haritane.com'),
        ('Odalar klimalı ve güzeldi, kahvaltı çok iyiydi. Konum pratik; yakında market, eczane ve mağazalar var, denize yürüyerek gidilebiliyor.','Google yorumu (İngilizceden çeviri) · Ağustos 2025')],
@@ -101,7 +101,7 @@ T={
  g_eye='Gallery',g_h='Moments from the hotel',
  caps={'havadan-deniz':'The hotel and the Black Sea','dis-cephe-gece':'Hotel façade at night','lobi':'Lobby & reception','kahvalti':'Breakfast hall','oda-1':'Standard room','oda-2':'Room','oda-calisma':'Room – work area','banyo':'Bathroom','dus':'Shower','dis-cephe-yan':'Hotel façade'},
  v_eye='Guest Reviews',v_h='What our guests say',
- sc=[('4.3','Google Maps','487 reviews · /5'),('8.4','Booking.com','65 reviews · /10')],
+ sc=[('4.3','Google Maps','489 reviews · /5'),('8.4','Booking.com','65 reviews · /10')],
  revs=[('The staff were very helpful and friendly, the rooms were air conditioned. There are many restaurants and markets near this hotel and Arsin beach is so close — you can reach it in 4 or 5 minutes.','Google review · August 2025'),
        ('The rooms were air-conditioned and good. The breakfast was very good. The location is practical, with markets, a pharmacy and shops nearby, close to the sea to walk.','Google review · August 2025'),
        ('Clean, rich breakfast, solution-oriented approach, smiling faces.','Guest review (translated from Turkish) · haritane.com')],
@@ -141,7 +141,7 @@ def page(k):
         "description":t['desc'],"telephone":TEL,"address":{"@type":"PostalAddress","streetAddress":"Yeşiltepe Mah. Mehmet Akif Ersoy Cad. No:93","addressLocality":"Arsin","addressRegion":"Trabzon","postalCode":"61900","addressCountry":"TR"},
         "geo":{"@type":"GeoCoordinates","latitude":LAT,"longitude":LNG},"checkinTime":"14:00","checkoutTime":"12:00","numberOfRooms":25,
         "amenityFeature":[{"@type":"LocationFeatureSpecification","name":n,"value":True} for n in ["Free WiFi","Free parking","24-hour front desk","Room service","Airport shuttle","Elevator","Air conditioning","Breakfast"]],
-        "aggregateRating":{"@type":"AggregateRating","ratingValue":4.3,"bestRating":5,"reviewCount":487}}
+        "aggregateRating":{"@type":"AggregateRating","ratingValue":4.3,"bestRating":5,"reviewCount":489}}
     return f'''<!doctype html>
 <html lang="{t['lang']}">
 <head>

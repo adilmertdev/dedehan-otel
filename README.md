@@ -7,7 +7,7 @@ Düz HTML/CSS/JS. `python3 tools/build.py` → `index.html` (TR) ve `en/index.ht
 - Telefon 0462 711 36 61: kayak.com, alpc.com.tr, haritane.com, exa.ai (Google kaydı)
 - Cep 0546 465 01 61: emsalo.com (Google Haritalar kaydından) — WhatsApp kullanımı otelle teyit edilmeli
 - Turizm İşletmesi Belgesi No 18770: enuygun.com
-- Puanlar: Google 4,3 / 487 (emsalo.com, 22.09.2026), Booking 8,4 / 65 (booking.com)
+- Puanlar: Google 4,3 / 489 (Google Maps embed, 25.10.2026), Booking 8,4 / 65 (booking.com)
 - Yorumlar: haritane.com, exa.ai (Google yorumları, Ağustos 2025)
 - Koordinat 40.953379, 39.935476: exa.ai (Google kaydı)
 
